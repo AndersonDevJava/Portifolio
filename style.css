@@ -1,0 +1,92 @@
+/*Degrade de fundo*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #000000, #1e73d4);
+  overflow: hidden;
+}
+
+/**/
+
+#container-box1{
+    background-color: #00000075;
+    width: 80%;
+    margin: auto;
+    border-radius: 0.5em;
+    min-height: 85vh;
+    border: solid 1px rgb(2, 69, 192);
+    margin-top: 3em;
+}
+
+#container-box1 p{
+    color: rgb(225, 231, 232);
+    margin: 0.8em;
+    margin-left: 4em;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    width: 24%;
+}
+#container-box1 header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#container-box1 ul{
+    display: flex;
+    gap: 5em;
+    list-style: none;
+    color: white;
+}
+
+#container-box1 li:hover{
+    color: rgb(0, 242, 255);
+}
+
+#container-box1 h1{
+    color: rgba(255, 255, 255, 0.874);
+    width: 70%;
+    font-size: 3rem;
+}
+
+#container-box1 > #marca{
+    width: 30%;
+    justify-content: space-between;
+}
+
+#conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-top: 5em;
+}
+
+#conteudo section{
+    width: 80%;
+    border-radius: 0.5em;
+    border: solid 0.1px black;
+}
+
+#conteudo > .apresentacao{
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    gap: 1em;
+}
+
+#conteudo .texto-apresentacao{
+    width: 80%;
+    margin: 0.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(231, 233, 236);
+}
+
+footer{
+    margin-top: 4em;
+}
